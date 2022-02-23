@@ -8,6 +8,8 @@ elif [[ $1 && $1 != "--help" ]]; then
 	echo "Parametro incorrecto, si necesita ayuda para usar el comando introduzca el parametro --help"
 elif [[ $1 == "--help" ]];then
 	echo "Bienvenido a la ayuda"
+	echo "Introduzca los diferentes valores 1-6 para las diferentes opciones"
+	echo "Introduzca 99 para salir de la ejecucion del programa"
 else
 	while (($bucle=="true"))
 	do
